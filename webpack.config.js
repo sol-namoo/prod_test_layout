@@ -5,7 +5,7 @@ const deps = require("./package.json").dependencies;
 module.exports = (_, argv) => ({
   output: {
     publicPath:
-        argv.mode === "production" ? "https://main.dz39vgz51901u.amplifyapp.com" :  "http://localhost:3001/",
+        argv.mode === "production" ? "https://main.dzcbmbv30vcnc.amplifyapp.com/" :  "http://localhost:3001/",
   },
 
   resolve: {
